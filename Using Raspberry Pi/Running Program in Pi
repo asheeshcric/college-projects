@@ -1,0 +1,4 @@
+1. Write a program in Python and save it as "Something.py".
+   #Remember to save it at home/pi
+
+2. Open terminal in Pi and type the command: sudo python Something.py

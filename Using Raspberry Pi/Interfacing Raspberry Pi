@@ -1,0 +1,16 @@
+1. Open Putty SSH Client
+
+2. Check the ip address of the raspberry pi using "Fling" app in your smartphone.
+
+3. Enter the ip address of the pi in Putty.
+
+4. Login as: pi
+   Password: Iamashish1234
+
+5. Create a vncserver from the pi by typing in the command: tightvncserver
+
+6. Open the terminal and type in the command: vncviewer
+
+7. Enter the ip address of the pi and ":1" as shown when we executed the tightvncserver command in the pi.
+
+8. Enter the password: Iamashish1234

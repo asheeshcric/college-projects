@@ -1,0 +1,3 @@
+gcc sample.c -o sample -lgraph
+
+./sample
