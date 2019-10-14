@@ -51,7 +51,7 @@ void setup()
 }
 
 
-//PROGRAM LOOP
+//PROGRAM LOOPING
 void loop()
 {
   if(blue == 0)
@@ -172,7 +172,7 @@ void loop()
 }
 
 
-//CHECKING THE STATUS OF RECORD AND PLAY
+//CHECKING THE STATUS OF RECORD AND THE PLAY
 void check_function()
 {
   Serial.println("Check Function Started");
@@ -186,7 +186,7 @@ void check_function()
     free_mode();
 }
 
-//RECORD MODE
+//RECORDS MODE
 void record()
 {
   Serial.println("RECORDING.......................");
@@ -233,7 +233,7 @@ void record()
           mys5.write(a5);
           mys6.write(a6);
           
-          record_length = i;  //To measure the duration of RECORDING LENGTH   
+          record_length = i;  //To measure duration of RECORDING LENGTH   
           
           int x = digitalRead(record_pinbutton);
           if(x)
